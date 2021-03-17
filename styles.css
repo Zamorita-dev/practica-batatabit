@@ -44,6 +44,9 @@ header img {
 .header--title-container {
   width: 90%;
   min-width: 288px;
-  max-width: 900px;psx`ñm48                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          jursz
+  max-width: 900px;
   height: 218px;
+  margin-top: 50px;
+  text-align: center;
+  align-self: center;
 }
