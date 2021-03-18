@@ -140,6 +140,18 @@ main {
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
+.main-tables-container {
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+.main-currency--table,
+.main-comisions--table {
+  position: relative;
+  scroll-snap-align: center;
+  width: 235px;
+}
 .main-currency--table .currency-table--title,
 .main-comisions--table .comisions-table--title {
   display: flex;
