@@ -277,7 +277,7 @@ main {
   width: 100%;
   min-width: 288px;
   max-width: 400px;
-  height: 150px;
+  min-height: 150px;
   margin: 15px auto;
   padding: 15px;
   background-color: var(--warm-black);
@@ -305,7 +305,6 @@ main {
 .product-detail-card .check {
   background-image: url(./assets/icons/check-circle.svg);
 }
-
 .product--card-title {
   margin-bottom: 15px;
   font-size: 1.8rem;
@@ -318,4 +317,31 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   color: #808080;
+}
+.bitcoin-img-container {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url(./assets/img/bitcoinbaby2x.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bitcoin-img-container h2 {
+  padding-top: 60px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  text-align: center;
+}
+.main-plans-container .plan-title h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+.main-plans-container .plan-title p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
 }
